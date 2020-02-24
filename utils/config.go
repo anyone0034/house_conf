@@ -26,7 +26,7 @@ var (
 func InitConfig() {
 	//从配置文件读取配置信息
 	//如果项目迁移需要进行修改
-	appconf, err := config.NewConfig("ini", "./conf/app.conf")
+	appconf, err := config.NewConfig("ini", "../conf/app.conf")
 	if err != nil {
 		beego.Debug(err)
 		return
