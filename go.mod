@@ -1,9 +1,3 @@
-module house_conf/v2
+module github.com/anyone0034/house_conf/v2
 
 go 1.13
-
-require (
-	github.com/astaxie/beego v1.12.1
-	github.com/micro/go-micro/v2 v2.1.1
-	github.com/shiena/ansicolor v0.0.0-20151119151921-a422bbe96644 // indirect
-)
