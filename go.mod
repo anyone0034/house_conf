@@ -1,4 +1,4 @@
-module house_conf/v1
+module house_conf/v2
 
 go 1.13
 
